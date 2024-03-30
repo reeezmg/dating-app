@@ -41,18 +41,18 @@ const props = defineProps({
     <div class="flex justify-around sm:w-full md:w-96 ">
       <div class="flex justify-between items-center ">
         <div class="me-5"><img alt="Vue logo" class="logo" src="../assets/cake.svg" width="17" height="17" /></div>
-        <div class=" font-semibold">{{ age }}</div>
+        <div class=" ">{{ age }}</div>
       </div>
       <div class=" border-e-2 border-gray-200"></div>
 
       <div  class="flex justify-between items-center ">
         <div class="me-5"><img alt="Vue logo" class="logo" src="../assets/pointer.svg" width="15" height="15" /></div>
-        <div class=" font-semibold">{{ location }}</div>
+        <div class=" ">{{ location }}</div>
       </div>
       <div class=" border-e-2 border-gray-200"></div>
       <div  class="flex justify-between items-center ">
         <div class="me-5 "><img alt="Vue logo" class="logo" src="../assets/scale.svg" width="13" height="13" /></div>
-        <div class=" font-semibold" v-html="height"></div>
+        <div class=" " v-html="height"></div>
       </div>
     </div>
     <div class="mt-4  border-b-2 border-gray-200 sm:w-full xs:w-full lg:w-96"></div>
